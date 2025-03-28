@@ -96,7 +96,7 @@ const Navbar = () => {
               onClick={toggleMenu}
               aria-label="Close Menu"
             >
-              <GiTireIronCross className="w-10 h-10 text-black" />
+              <GiTireIronCross className="w-10 h-20 text-black" />
             </button>
 
             {/* Menu Links */}
