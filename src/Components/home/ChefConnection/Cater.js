@@ -10,8 +10,8 @@ const Cater = () => {
     <div className="flex flex-wrap -m-4">
         
       <div className="p-4 md:w-1/3">
-        <div className="h-full  rounded-lg overflow-hidden">
-          <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://thechefkart.com/_next/image?url=https%3A%2F%2Fchefkart-strapi-media.s3.ap-south-1.amazonaws.com%2FEarn_Money_c09cff227a.webp&w=1920&q=75" alt="blog"/>
+        <div className="rounded-lg overflow-hidden">
+          <img className="lg:h-64 md:h-36 w-full object-cover object-center" src="https://thechefkart.com/_next/image?url=https%3A%2F%2Fchefkart-strapi-media.s3.ap-south-1.amazonaws.com%2FEarn_Money_c09cff227a.webp&w=1920&q=75" alt="blog"/>
           <div className="p-6">
        
             <h1 className="title-font font-bold text-gray-900 text-3xl text-center mb-3">नियमित पैसे </h1>
@@ -22,7 +22,7 @@ const Cater = () => {
       </div>
       <div className="p-4 md:w-1/3">
         <div className="h-full rounded-lg overflow-hidden">
-          <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://thechefkart.com/_next/image?url=https%3A%2F%2Fchefkart-strapi-media.s3.ap-south-1.amazonaws.com%2FBe_your_own_boss_1_ff6c9822fd.webp&w=1920&q=75" alt="blog"/>
+          <img className="lg:h-64 md:h-36 w-full object-cover object-center" src="https://thechefkart.com/_next/image?url=https%3A%2F%2Fchefkart-strapi-media.s3.ap-south-1.amazonaws.com%2FBe_your_own_boss_1_ff6c9822fd.webp&w=1920&q=75" alt="blog"/>
           <div className="p-6">
          
              <h1 className="title-font font-bold text-gray-900 text-3xl text-center mb-3">सम्मान से काम  </h1>
@@ -34,7 +34,7 @@ const Cater = () => {
       </div>
       <div className="p-4 md:w-1/3">
         <div className="h-full rounded-lg overflow-hidden">
-          <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://thechefkart.com/_next/image?url=https%3A%2F%2Fchefkart-strapi-media.s3.ap-south-1.amazonaws.com%2FCustomer_support_26823bc403.webp&w=1920&q=75" alt="blog"/>
+          <img className="lg:h-64 md:h-36 w-full object-cover object-center" src="https://thechefkart.com/_next/image?url=https%3A%2F%2Fchefkart-strapi-media.s3.ap-south-1.amazonaws.com%2FCustomer_support_26823bc403.webp&w=1920&q=75" alt="blog"/>
           <div className="p-6">
 
           <h1 className="title-font font-bold text-gray-900 text-3xl text-center mb-3">ट्रेनिंग एवं सहायता   </h1>

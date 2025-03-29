@@ -1,13 +1,15 @@
 import React from "react";
 import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 export default function SimpleSlider() {
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 2, // Show 2 slides at a time
-    slidesToScroll: 2, // Scroll 2 slides at a time
+    slidesToShow: 1, // Show 2 slides at a time
+    slidesToScroll: 1, // Scroll 2 slides at a time
     responsive: [
       {
         breakpoint: 768, // Mobile devices
@@ -21,7 +23,7 @@ export default function SimpleSlider() {
 
   return (
     <div className="p-5">
-      <h1 className="text-5xl text-center mt-5 font-bold">एक प्रमुख पहल</h1>
+      <h1 className="text-5xl text-center mt-5 font-bold py-5">एक प्रमुख पहल</h1>
 
       <Slider {...settings}>
         <div>
@@ -29,12 +31,6 @@ export default function SimpleSlider() {
         </div>
         <div>
           <img src="slider2.png" alt="Slide 2" className="w-full" />
-        </div>
-        <div>
-          <img src="slider3.png" alt="Slide 3" className="w-full" />
-        </div>
-        <div>
-          <img src="slider4.png" alt="Slide 4" className="w-full" />
         </div>
       </Slider>
     </div>

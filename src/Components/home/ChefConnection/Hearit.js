@@ -9,7 +9,7 @@ const Hear = () => {
           {/* Text and Stats Section */}
           <div className="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
             <div className="w-full sm:p-4 px-4 mb-6">
-              <h1 className="title-font  leading-normal text-4xl mb-2 text-gray-800">
+              <h1 className="title-font font-bold leading-normal text-4xl mb-2 text-gray-800">
               "<br/>
               "जहाँ आपको इज़्ज़त नहीं मिले, ChefKart उस घर में आपको कभी नहीं भेजेगी।"
               </h1>
