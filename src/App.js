@@ -6,6 +6,7 @@ import NotificationBanner from './Components/home/Header/Header';
 import Footer from './Components/home/Footer/Footer';
 import Nav from './Components/home/Header/Nav';
 import Contact from './Components/home/Contact/Contact';
+import ChefConnection from './Components/home/ChefConnection/Chefconnection';
 
 const App = () => {
   return (
@@ -14,8 +15,9 @@ const App = () => {
     <Nav/>
     <Routes>
       <Route path="" element={ <Home/> } />
-      <Route path="about" element={ <About/> } />
-      <Route path="contact" element={ <Contact/> } />
+      <Route path="/about" element={ <About/> } />
+      <Route path="/contact" element={ <Contact/> } />
+      <Route path="/join-chef" element={<ChefConnection/> } />
     </Routes>
     <Footer/>
   </div>

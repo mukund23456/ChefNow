@@ -63,7 +63,7 @@ const Navbar = () => {
               </div>
             )}
           </div>
-          <Link to="/join-chefkart" className="mr-5 text-2xl text-white hover:underline">   
+          <Link to="/join-chef" className="mr-5 text-2xl text-white hover:underline">   
             MaidMart से जुड़ें
           </Link>
           <Link to="/chef-search" className="mr-5 text-2xl text-white hover:underline">
