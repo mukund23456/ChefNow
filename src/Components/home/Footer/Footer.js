@@ -19,7 +19,7 @@ return (
     </div>
     <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
         <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-            <nav class="list-none mb-10">
+            <nav class="list-none mb-10 text-2xl">
                 <li>
                     <Link to="#" class="text-gray-600 normal leading-loose hover:text-gray-800">
                     Cook for a Month</Link>
@@ -35,7 +35,7 @@ return (
         </div>
         <div class="lg:w-1/4 md:w-1/2 w-full px-4">
           
-            <nav class="list-none mb-10">
+            <nav class="list-none mb-10 text-2xl">
                 <li>
                     <Link to="#" class="text-gray-600 normal leading-loose hover:text-gray-800">Madeit: One-Time Cook
                     </Link>
@@ -50,7 +50,7 @@ return (
             </nav>
         </div>
         <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-            <nav class="list-none mb-10">
+            <nav class="list-none mb-10 text-2xl">
                 <li>
                     <Link to="#" class="text-gray-600 normal leading-loose hover:text-gray-800">Maid After Party</Link>
                 </li>
@@ -61,7 +61,7 @@ return (
             </nav>
         </div>
         <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-            <nav class="list-none mb-10">
+            <nav class="list-none mb-10 text-2xl">
                 <li>
                     <Link to="#" class="text-gray-600 normal leading-loose hover:text-gray-800">Privacy Policy</Link>
                 </li>
