@@ -8,6 +8,7 @@ import Nav from './Components/home/Header/Nav';
 import Contact from './Components/home/Contact/Contact';
 import ChefConnection from './Components/home/ChefConnection/Chefconnection';
 import Month from './Components/home/Cookforamonth/Month';
+import OneTime from './Components/home/Onetimecook/Onetime';
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <Route path="/contact" element={ <Contact/> } />
       <Route path="/join-chef" element={<ChefConnection/> } />
       <Route path="/cook-for-month" element={<Month/> } />
+      <Route path="/one-time-cook" element={<OneTime/> } />
     </Routes>
     <Footer/>
   </div>
