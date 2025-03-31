@@ -13,6 +13,7 @@ import Testi from './Components/home/Testimonial/Testimonial';
 import About from './Components/home/About/About';
 import Blog from './Components/home/Blog/Blog';
 import Career from './Components/home/Career/Career';
+import ChefDirectory from './Components/home/CookNearme/Chefsearch';
 
 const App = () => {
   return (
@@ -31,6 +32,7 @@ const App = () => {
       <Route path="/about" element={<About/> } />
       <Route path="/blog" element={<Blog/>} />
       <Route path="/career" element={<Career/>} />
+      <Route path="/chef-search" element={<ChefDirectory/>} />
     </Routes>
     <Footer/>
   </div>
