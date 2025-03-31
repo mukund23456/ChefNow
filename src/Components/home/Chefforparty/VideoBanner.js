@@ -38,7 +38,7 @@ const VideoBanner = () => {
 
       {/* Content */}
       <div className="absolute z-1 flex flex-col justify-center h-full text-white px-4">
-        <h2 className="text-6xl md:text-2xl lg:text-5xl font-semibold">
+        <h2 className="text-6xl md:text-2xl lg:text-xl font-semibold">
           Your Safety, Our Top-Priority
         </h2>
         <p className="text-2xl font-bold mt-4 ">

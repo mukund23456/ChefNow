@@ -289,7 +289,7 @@ const Navbar = () => {
             </Link>
             <hr />
             <Link
-              to="/testimonial"
+              to="/testimonials"
               className="text-lg font-bold hover:text-orange-500"
               onClick={toggleMenu}
             >

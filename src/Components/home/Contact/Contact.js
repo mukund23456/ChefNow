@@ -2,8 +2,8 @@ import ContactLower from "./ContactLower";
 
 const Contact = () => {
   return (
-    <div>
-      <section className="text-gray-600 body-font relative" >
+    <div className="pt-20 relative "> {/* Added padding to prevent overlap */}
+      <section className="text-gray-600 body-font relative overflow-hidden"> {/* Added overflow-hidden */}
         <div className="container px-5 py-12 mx-auto flex lg:flex-nowrap flex-wrap">
           {/* Left Section: Map and Address */}
           <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-6 flex items-end justify-start relative">
@@ -91,7 +91,7 @@ const Contact = () => {
                 <select
                   id="city"
                   name="city"
-                  className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base  text-gray-700 py-2 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base text-gray-700 py-2 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 >
                   <option>Gurugram</option>
                   <option>Mumbai</option>
