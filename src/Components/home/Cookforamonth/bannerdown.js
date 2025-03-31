@@ -16,8 +16,8 @@ const BannerDow = () => {
             </h1>
           </div>
           {/* Right section */}
-          <div className="w-full md:w-1/2 md:pl-12">
-            <h2 className="title-font text-gray-800 tracking-wider text-xl sm:text-2xl mb-3 text-center md:text-left">
+          <div className="flex flex-col items-center md:items-start md:w-1/2 md:pl-12">
+            <h2 className="title-font text-black tracking-wider text-xl md:text-2xl text-center md:text-left mb-3">
             Try the service for a minimal trial amount and, if satisfied, get the same cook appointed for a month.
             </h2>
           </div>

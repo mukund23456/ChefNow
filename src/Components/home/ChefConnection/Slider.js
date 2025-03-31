@@ -7,6 +7,7 @@ export default function SimpleSlider() {
   const settings = {
     dots: true,
     infinite: true,
+    draggable: true ,
     speed: 500,
     slidesToShow: 1, // Show 2 slides at a time
     slidesToScroll: 1, // Scroll 2 slides at a time
